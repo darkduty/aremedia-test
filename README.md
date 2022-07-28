@@ -20,6 +20,8 @@ Requirements as listed here: https://gist.github.com/bxm-builduser/ae79b728b8859
   - Implement a better method for responsiveness for tablet 
     - Tablet design is a bit "hacky" due to some constraints and not having 100% understanding of Bootstrap
   - Implement the same font-family used by aremedia.com.au
+  - Implement the same redirects on navbar used by aremedia.com.au
+    - Implement the dropdown menus also, this would require state to determine open and close state however as just using css will not work (due to using react bootstrap and not pure bootstrap)
  
 # Test Suites
   - These will be generically outlined in how I would have implemented them (view as per the test files for the individual components)
