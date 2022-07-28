@@ -11,6 +11,7 @@ Requirements as listed here: https://gist.github.com/bxm-builduser/ae79b728b8859
   - Tried replicating aremedia.com.au navbar (background color, font color and gradient from left to right on hover of Nav items) 
   - Implemented the video that autoplays, scrolling down will contain the rest of the content
   - Tried matching the main colors used (mainly #f1484f and white) 
+  - Implement the sidebar ad to be "sticky" as it follows user scroll
 
 # Improvements That Could be Made
   - Implement test suite with Jest + Enzyme
