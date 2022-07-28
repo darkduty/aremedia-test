@@ -1,0 +1,93 @@
+.colItem1 {
+  background-color: #f1484f;
+  border: 2px solid black;
+}
+
+.cardContainer {
+  background-color: #f1484f;
+  border: 2px solid black;
+}
+
+.colItem2 {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+}
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.colItem1 {
+  .tabletCard {
+    display: none;
+  }
+}
+
+.colItem2 {
+  .tabletCardRight {
+    display: none;
+  }
+}
+
+@media (min-width: 360px) {
+  .colItem1 {
+    .firstItem {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 768px) and (min-height: 1080px) {
+  .colItem1 {
+    .leftColCard {
+      display: none;
+    }
+    .tabletCard {
+      display: block;
+    }
+    .firstItem {
+      display: block;
+    }
+  }
+  .colItem2 {
+    .rightColCard {
+      display: none;
+    }
+    .tabletCardRight {
+      display: block;
+    }
+  }
+  .navItem {
+    .nav-link {
+      color: #f1484f;
+      &:hover :active {
+        color: #ffffff;
+        transition: all 0.5s ease;
+        box-shadow: inset 100px 0 0 0 #f1484f;
+      }
+    }
+  }
+}
+
+.imgStyle {
+  margin: auto;
+  width: 100%;
+  display: block;
+  top: 0;
+  position: sticky;
+}
+
+.navbarParent {
+  background-color: white;
+  .navItems {
+    .nav-link {
+      color: #f1484f;
+      &:hover {
+        color: #ffffff;
+        transition: all 0.5s ease;
+        box-shadow: inset 100px 0 0 0 #f1484f;
+      }
+    }
+  }
+}
